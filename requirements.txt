@@ -1,0 +1,15 @@
+# Core
+deepxde>=1.11
+tensorflow>=2.13
+tf-keras            # legacy Keras API used by the scripts (export TF_USE_LEGACY_KERAS=1)
+numpy
+scipy
+scikit-learn
+matplotlib
+h5py
+
+# Notes
+# - DeepXDE must use the TensorFlow backend:  export DDE_BACKEND=tensorflow
+# - The scripts use the legacy Keras API:     export TF_USE_LEGACY_KERAS=1
+# - Reference environment: NCSA Delta/DeltaAI module python/miniforge3_tensorflow_cuda
+#   (TensorFlow + CUDA) on NVIDIA A100 / GH200 GPUs.

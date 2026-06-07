@@ -1,0 +1,54 @@
+# --- Datasets (large; place locally, see data/README.md) -------------------
+*.h5
+*.hdf5
+*.npz
+*.npy
+*.mat
+*.vtk
+*.odb
+
+# --- Trained models / checkpoints ------------------------------------------
+Models/
+mdls/
+saved_weights/
+*.ckpt
+*.ckpt.*
+*.weights.h5
+checkpoint
+
+# --- Training outputs / figures --------------------------------------------
+losshistory*.npy
+predictions*.npz
+*_results.npz
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.mp4
+*.pdf
+
+# --- HPC logs / scheduler --------------------------------------------------
+slurm_output/
+slurm-*.out
+*.out
+*.err
+*.log
+core
+
+# --- Python ----------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+
+# --- OS / editor -----------------------------------------------------------
+.DS_Store
+*~
+.idea/
+.vscode/
+
+# Keep the empty data directory structure
+!data/**/.gitkeep

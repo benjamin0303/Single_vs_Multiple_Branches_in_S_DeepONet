@@ -1,0 +1,41 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the accompanying preprint."
+title: "Single vs. Multiple Branches in DeepONet and S-DeepONet: Network Architecture Follows Coupling in Multiphysics Systems"
+type: software
+authors:
+  - family-names: Park
+    given-names: Jaewan
+  - family-names: Kobayashi
+    given-names: Kazuma
+  - family-names: Liu
+    given-names: Qibang
+  - family-names: Koric
+    given-names: Seid
+  - family-names: Abueidda
+    given-names: Diab
+  - family-names: Alam
+    given-names: Syed Bahauddin
+license: MIT
+repository-code: "https://github.com/benjamin0303/Single_vs_Multiple_Branches_in_S_DeepONet"
+preferred-citation:
+  type: article
+  title: "Single vs. Multiple Branches in DeepONet and S-DeepONet: Network Architecture Follows Coupling in Multiphysics Systems"
+  authors:
+    - family-names: Park
+      given-names: Jaewan
+    - family-names: Kobayashi
+      given-names: Kazuma
+    - family-names: Liu
+      given-names: Qibang
+    - family-names: Koric
+      given-names: Seid
+    - family-names: Abueidda
+      given-names: Diab
+    - family-names: Alam
+      given-names: Syed Bahauddin
+  year: 2026
+  journal: "arXiv preprint"
+  identifiers:
+    - type: other
+      value: "arXiv:2507.03660"
+  url: "https://arxiv.org/abs/2507.03660"
