@@ -104,8 +104,10 @@ The datasets are **large** (reaction–diffusion HDF5 ≈ 8–17 GB; thermo `.np
 and the expected on-disk layout under `data/<problem>/`. The data paths inside every script are **relative
 to the repository root**, so run the scripts from there after placing the data.
 
-> The reaction–diffusion datasets can be regenerated from scratch with the scripts in
-> [`data/generation/`](data/generation).
+The **thermo-electrical** and **thermo-mechanical** datasets are hosted on Hugging Face:
+**https://huggingface.co/datasets/jaewan-wod33/Single_vs_Multiple_Branches_in_S_DeepONet**
+(each with a small `demo/` subset for quick testing). The single-physics **reaction–diffusion**
+data can be regenerated from scratch with the scripts in [`data/generation/`](data/generation).
 
 ---
 
