@@ -61,7 +61,6 @@ Single_vs_Multiple_Branches_in_S_DeepONet/
 │   └── run.slurm
 ├── thermo_mechanical/                  # coupled vs. uncoupled multiphysics (viscoplastic slice)
 │   ├── coupled_1br.py    coupled_2br.py
-│   ├── coupled_1br_infer_on_2br.py     # 1br model evaluated on the 2br test split (paired plots)
 │   ├── uncoupled_1br.py  uncoupled_2br.py
 ├── data/
 │   ├── README.md                       # dataset list, array shapes, and where to place files
